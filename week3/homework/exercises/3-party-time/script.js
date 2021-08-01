@@ -7,10 +7,9 @@
  * Hints:
  * - make sure to use the correct headers and http method in the request
  */
+const fetch = require("node-fetch");
 
 async function makeReservation() {
-  const fetch = require("node-fetch");
-
   const resDetails = {
     name: "Mouawya",
     numberOfPeople: 3,
